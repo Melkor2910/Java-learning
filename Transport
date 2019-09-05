@@ -1,0 +1,5 @@
+public interface Transport {
+	default void etatTransport() {
+		System.out.println("Il n'y a pas de transport");
+	}
+}
