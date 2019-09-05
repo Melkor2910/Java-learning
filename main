@@ -1,0 +1,16 @@
+public class PremiereClasse {
+	  public static void main(String[] args){
+		  Ville Lyon = new Ville("Paris",1000000,"France");
+		  String nom=Lyon.getNom();
+		  System.out.println(nom);
+		  System.out.println(Ville.nbreInstances);
+		  Ville Marseille = new Ville("Marseille",1000000,"France");
+		  String nom2=Marseille.getNom();
+		  System.out.println(nom2);
+		  System.out.println(Ville.nbreInstances);
+		  Capitale NY= new Capitale("New York",8630000, "USA","Empire State Building");
+		  System.out.println(NY.decrisToi());
+		  System.out.println(Ville.nbreInstances);
+		  NY.etatTransport();
+	  }
+}
